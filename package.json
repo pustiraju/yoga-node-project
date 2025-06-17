@@ -1,0 +1,23 @@
+{
+  "name": "yoga-node-project",
+  "version": "1.0.0",
+  "description": "yoga website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pustiraju/yoga-node-project.git"
+  },
+  "author": "Raju Pusti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pustiraju/yoga-node-project/issues"
+  },
+  "homepage": "https://github.com/pustiraju/yoga-node-project#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
