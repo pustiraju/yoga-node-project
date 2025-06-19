@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+  <link rel="stylesheet" href="/public/css/output.css">
 </head>
-<body>
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-6">
   
-    <h1>Welcome to EJS</h1>
-    <p>This is a simple EJS template.</p>
-    <p>Current Date: <%= new Date().toLocaleDateString() %></p>
+  <div class="bg-white rounded-2xl shadow-lg p-8 max-w-xl w-full text-center">
+    <h1 class="text-4xl font-bold text-blue-600 mb-4">Welcome to EJS</h1>
+    <p class="text-gray-700 text-lg mb-2">This is a simple EJS template.</p>
+    <p class="text-sm text-gray-500">Current Date: <%= new Date().toLocaleDateString() %></p>
+  </div>
+
 </body>
+
 </html>
